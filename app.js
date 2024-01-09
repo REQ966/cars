@@ -6,9 +6,9 @@ async function fetchCars(){
 
     data.map((info) => {
         output += `<div class='car'>
-            <p>Autó márkája: ${info.brand}</p>
-            <p>Autó típusa: ${info.type}</p>
-            <p>Autó típusa: ${info.factoryYear}</p>
+            <p>Autó márkája: <b> ${info.brand} </b> </p>
+            <p>Autó típusa: <b>${info.type}</b></p>
+            <p>Autó típusa: <b>${info.factoryYear}</b></p>
         </div>`
 
     })
